@@ -1,0 +1,18 @@
+<div class="container-fluid container-fluid-custom1 pb-5 mb-5" style="height: 70vh;">
+
+    <div class="row">
+      <% if(searchResults != '') { %>
+        <% searchResults.forEach(function (note, index) { %>
+          
+          <a href="/dashboard/item/<%= note._id %>">
+          <h4><%= note.title %></h4>
+          </a>
+  
+        <% }) %>
+      <% } else { %>
+        <p>No items found.</p>
+      <% } %>
+  
+    </div>
+  
+  </div>
