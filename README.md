@@ -18,7 +18,7 @@
 - **Passport.js:** Authentication middleware for secure user management.
 
 ## Live Preview 🚀
-The live preview of this project is hosted [here](https://quicknotes.onrender.com)
+The live preview of this project is hosted [here](https://quicknotes-notes-app.onrender.com)
 
 ## Usage 
 
